@@ -1,9 +1,12 @@
 /* navbar */
 .navbar-default {
     background-color: #6D8496;
-    border-color: #3A4A49; /*F2727D*/
+    border-color: #3A4A49;
 }
 
+.dropdown:hover .dropdown-menu {display: block !important;}
+
+.dropdown .dropdown-menu .dropdown-item:hover, .dropdown .dropdown-menu .dropdown-item:hover{background-color: #F2727D !important;}
 body {
     padding-top: 5rem;
     background-color: #EFE5DC;
