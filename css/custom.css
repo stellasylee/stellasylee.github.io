@@ -30,13 +30,17 @@ body {
     background-color: #EFE5DC;
 }
 
+.body > .container{
+    padding: 3px;
+}
+
 .footer {
     background-color: #9A9174;
 }
   
 .footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-align: left;
 }
   
