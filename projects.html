@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Home Website of Stella (Seoyeon) Lee">
         <meta name="author" content="Stella (Seoyeon) Lee">
-        <title>Personal Website of Stella Lee</title>
-        <title>Home</title>
+        <title>Stella Lee's Personal Website</title>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -19,6 +18,7 @@
         <!-- Styles-->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
+        <link href="css/custom-project.css" rel="stylesheet">
         <!-- Favicons -->
         <meta name="theme-color" content="#508da1">
         
@@ -42,23 +42,23 @@
 
     <body>
         <nav class="navbar navbar-custom navbar-expand-md fixed-top">
-            <a class="navbar-brand" href="#">Stella Lee</a>
+            <a class="navbar-brand" href="index.html">Stella Lee</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                        <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Projects<span class="caret"></span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Machine Learning</a>
-                          <a class="dropdown-item" href="#">Data Visualization & Analysis</a>
-                          <a class="dropdown-item" href="#">App Dev (Android)</a>
-                          <a class="dropdown-item" href="#">Teaching & Outreach</a>
+                          <a class="dropdown-item" href="#ML">Machine Learning</a>
+                          <a class="dropdown-item" href="#Data">Data Visualization & Analysis</a>
+                          <a class="dropdown-item" href="#AppDev">App Dev (Android)</a>
+                          <a class="dropdown-item" href="#Teaching">Teaching & Outreach</a>
                         </div>
                       </li>
                       <li class="nav-item">
@@ -72,23 +72,17 @@
                   </div>
         </nav>
         <main role="main" class="container">
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Projects</h1>
-              <p class="lead">This is my projects including classroom and outside.</p>
-            </div>
+          <div id="title">
+            <h1 class="display-3"><b>Projects</b></h1>
           </div>
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <a href="#ML">
-                <h1 class="display-5">Machine Learning</h1>
-              </a>
-              <p class="lead">--</p>
+              <h1 class="display-4" id="ML">Machine Learning</h1>
             </div>
           </div>
-          <div id="accordion">
+          <div class="panel-group">
             <div class="card">
-              <div class="card-header" id="headingOne">
+              <div class="card-header" id="ml1">
                 <h5 class="mb-0">
                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Weak Supervised Question-Answering ML Model
@@ -129,29 +123,23 @@
                   (malignant or benign) with 97.4% accuracy
                 </div>
               </div>
-            </div>
           </div>
+
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <a href="#Data">
-                <h1 class="display-5">Data Visualization & Analysis</h1>
-              </a>
+              <h1 class="display-5" id="Data">Data Visualization & Analysis</h1>
               <p class="lead">--</p>
             </div>
           </div>
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <a href="#AppDev">
-                <h1 class="display-5">App Dev (Android)</h1>
-              </a>
+              <h1 class="display-5" id="AppDev">App Dev (Android)</h1>
               <p class="lead">--</p>
             </div>
           </div>
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <a href="#Teaching">
-                <h1 class="display-5">Teaching & Outreach</h1>
-              </a>
+              <h1 class="display-5" id="Teaching">Teaching & Outreach</h1>
               <p class="lead">--</p>
             </div>
           </div>
@@ -161,7 +149,6 @@
         </main><!-- /.container -->
         <footer class="footer mt-auto py-3 fixed-bottom">
             <div class="container">
-                <span class="text-muted"> 
                 © Seoyeon (Stella) Lee 
                 <a href="mailto:stellasylee22@gmail.com?"><img src="assets/icon/envelope-fill.svg"></img></a>
                 <span class="code">stellasylee22@gmail.com</span> 
