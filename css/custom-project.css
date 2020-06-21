@@ -1,3 +1,7 @@
+a+a {
+    margin-left: 10px;
+  }
+
 #title {
     text-align: center;
     margin: 20px;
@@ -21,6 +25,9 @@
 
 #project_title{
     color: rgb(54, 70, 126);
+    display: inline;
+    padding: 2rem 2rem;
+    margin: 1.5rem;
 }
 
 #project_org{
@@ -28,4 +35,17 @@
     color: rgb(98, 126, 226);
     padding: 0px;
     margin: 0px;
+}
+
+.panel-group .card .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+
+.panel-group .card .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    font-family: 'FontAwesome';  
+    content: "\f067"; 
+    float: right;
 }
