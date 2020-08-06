@@ -63,15 +63,3 @@ code {
 .background img{
     width: 100%;
 }
-
-@media screen and (max-width: 767px) {   
-    .background {
-    	background-image: "assets/stella_welcome_mobile.jpg";
-    } 
-}
-
-@media screen and (min-width: 768px) {      
-    .background {   
-    	background-image: "assets/stella_welcome.jpg";
-    } 
-} 
