@@ -63,3 +63,13 @@ code {
 .background img{
     width: 100%;
 }
+
+/* about.html image */
+
+.col-sm-5 img{
+    max-width: 100%;
+}
+
+#about_content{
+    
+}
