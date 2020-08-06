@@ -1,3 +1,7 @@
+a+a {
+    margin-left: 10px;
+  }
+  
 /* navbar */
 .navbar-custom {
     background-color: #6D8496;
@@ -46,5 +50,17 @@ body {
   
 code {
     font-size: 80%;
+}
+
+.background {
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    background-color: #687E8C;
+}
+
+.background img{
+    width: 100%;
 }
   
